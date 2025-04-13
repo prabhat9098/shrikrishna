@@ -72,7 +72,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #33211D;
+  color: #444;
   text-align: left;
   background-color: #fff;
 }
@@ -302,43 +302,43 @@ body {
   padding: 20px 10px;
   font-size: 1.5rem;
  
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'fantasy', fantasy;
   text-transform: uppercase;
   text-align: center;
   
 }
 .card:nth-child(1) .card-image{
-  background-image: url(../imgs/comp.jpg);
+  background-image: url(../imgs/firm3.jpg);
 }
 .card:nth-child(2) .card-image{
-  background-image: url(../imgs/audit.jpg);
+  background-image: url(../imgs/firm3.jpg);
 }
 .card:nth-child(3) .card-image{
-  background-image: url(../imgs/llp.jpg);
+  background-image: url(../imgs/firm3.jpg);
 }
 .card:nth-child(3) .card-image{
-  background-image: url(../imgs/comp.jpg);
+  background-image: url(../imgs/firm3.jpg);
 }
 .card:nth-child(4) .card-image{
-  background-image: url(../imgs/audit.jpg);
+  background-image: url(../imgs/firm3.jpg);
 }
 .card:nth-child(3) .card-image{
-  background-image: url(../imgs/llp.jpg);
+  background-image: url(../imgs/firm3.jpg);
 }
 .card:nth-child(5) .card-image{
-  background-image: url(../imgs/comp.jpg);
+  background-image: url(../imgs/firm3.jpg);
 }
 .card:nth-child(6) .card-image{
-  background-image: url(../imgs/audit.jpg);
+  background-image: url(../imgs/firm3.jpg);
 }
 .card:nth-child(7) .card-image{
-  background-image: url(../imgs/llp.jpg);
+  background-image: url(../imgs/firm3.jpg);
 }
 .card:nth-child(8) .card-image{
-  background-image: url(../imgs/23.jpg);
+  background-image: url(../imgs/firm3.jpg);
 }
 .card:nth-child(9) .card-image{
-  background-image: url(../imgs/merger2.jpg);
+  background-image: url(../imgs/firm3.jpg);
 }
 .card:nth-child(10) .card-image{
   background-image: url(../imgs/firm3.jpg);
@@ -666,7 +666,7 @@ h1, .h1 {
 @media (max-width: 768px) {
   h1{
     text-align: center;
-    font-size: 20px;
+    font-size: 45px;
   }
 }
 
@@ -675,7 +675,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 1.75rem;
+  font-size: 1.35rem;
 }
 
 h4, .h4 {
@@ -4946,7 +4946,6 @@ input[type="button"].btn-block {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  position: relative;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.1rem;
@@ -4959,8 +4958,7 @@ input[type="button"].btn-block {
 .navbar-toggler-icon {
   display: inline-block;
   width: 1.5em;
-  height: 2.5em;
-  position: absolute;
+  height: 1.5em;
   vertical-align: middle;
   content: "";
   background: no-repeat center center;
@@ -11528,12 +11526,9 @@ textarea.form-control {
 .navbar.navbar-light .navbar-brand {
   color: #1b1b1b;
 }
-.b{
-  width: 10px;
-}
- 
-.navbar .navbar-brand b {
-  width: 0px;
+
+.navbar .navbar-brand img {
+  width: 130px;
   height: 100px;
 }
 
@@ -11565,8 +11560,7 @@ textarea.form-control {
 }
 
 .navbar.custom-navbar.affix .nav-link {
-  color: #009CFF; 
-  
+  color: #444;
 }
 
 .navbar.custom-navbar.affix .nav-link:hover {
@@ -11788,7 +11782,7 @@ textarea.form-control {
 
 header h1, h2,h3{
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'fantasy', sans-serif;
 }
 
 header h1{

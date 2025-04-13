@@ -13,6 +13,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
+<!-- Add Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <!-- Bootstrap + LeadMark main styles -->
 	<link rel="stylesheet" href="assets/css/leadmark.css">
    
@@ -20,31 +22,26 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
     <div id="loader">
-        <img src="./assets/imgs/Start.gif" alt="Loading...">
+        <img src="assets/imgs/Copy of logo of Krishna.png" alt="Loading...">
         <br>
         <!-- <h1><strong> ShriKrishna Edu Hub </strong></h1> -->
       </div>
    
   
     <!-- page Navigation -->
-    <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10" style="background:linear-gradient(  rgb(46, 117, 128), #22395d) ;">
+    <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
         <div class="container">
             <a class="navbar-brand" href="#">
-                <!-- <img src="assets/imgs/Copy of logo of Krishna.png" alt=""> -->
-                <!-- <img src="assets/imgs/logo.svg" alt=""> -->
-                <h3 class="b display-10 text-white text-upercase" style="padding-right: 40px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; width: 30px;">SHRIKRISHNA EDUCATION HUB</h3>
-                
+                <!--<img src="assets/imgs/logo.svg" alt="">-->
+                <img src="assets/imgs/Copy of logo of Krishna.png" alt="">
             </a>
-           
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
                 <ul class="navbar-nav ml-auto"> 
                     <li class="nav-item">
                         <a class="nav-link" href="#home">HOME</a>
-                        
                     </li>                    
                     <li class="nav-item">
                         <!--<a class="nav-link" href="#service">Our Service</a>-->
@@ -56,9 +53,6 @@
              
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    <li>
-                        <input type="text" placeholder="Search..">
                     </li>
                    <!-- <li class="nav-item">
                         <a href="components.html" class="ml-4 nav-link btn btn-primary btn-sm rounded">Components</a>
@@ -74,9 +68,14 @@
                  
         <div class="overlay">
             <!-- <h1> <strong> SHRIKRISHNA EDU HUB</strong></h1> -->
-            <img src="./assets/imgs/Copy of logo of Krishna.png" alt="" style="height: 200px; width: 150px; padding-bottom: 60px;">
-            <h1 class="" style="height: 5rem; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-style:oblique;"> SHRIKRISHNA EDU HUB</h1> 
-           <h3 style="font-size: larger;"> Education | Training & Consulting | Software | H.R. Turnkey Projects </h3>
+           
+            <h1 class="" style="height: 5rem; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-style:oblique; margin-bottom: 1rem;">
+                SHRIKRISHNA EDU HUB
+              </h1>
+              <h3 style="font-size: larger; margin-top: 5rem; text-align: center;">
+                Education | Training & Consulting | Software | H.R. Turnkey Projects
+              </h3
+              
            <!-- <h2>Education | Training & Consulting | Software | H.R. Turnkey Projects </h2> -->
         </div>  
         <div class="shape">
@@ -234,6 +233,110 @@
  
 </section>
 
+
+
+<style>
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    
+  }
+
+  #card-body {
+  padding: 2rem 0;
+  width: 100%;
+}
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 1rem; /* Add horizontal padding for small screens */
+    box-sizing: border-box;
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5rem;
+    position: relative;
+    color: #333;
+  }
+
+  .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+  background: linear-gradient(135deg, #4f46e5, #6d28d9); /* optional gradient effect */
+  color: white;
+}
+
+.card:hover .card-title h6 {
+  color: white;
+}
+
+.card:hover .card-button {
+  background-color: white;
+  color: #4f46e5;
+}
+
+
+  .card-image {
+    height: 150px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    border-radius: 0.75rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .card-title h6 {
+    font-size: 1.1rem;
+    
+    text-align: center;
+    margin: 0 0 1.2rem 0;
+    color: #1e293b;
+    line-height: 1.4;
+  }
+
+  .card-button {
+    background-color: #4f46e5;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    width: 100%;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+
+  .card-button:hover {
+    background-color: #4338ca;
+  }
+
+  @media (max-width: 768px) {
+  .card-container {
+    justify-items: center; /* center items in the grid */
+  }
+}
+
+
+  a {
+    text-decoration: none;
+  }
+</style>
+
+
 <div class="line"></div>
 
 
@@ -341,6 +444,105 @@
     </div>
  
 </section> -->
+
+<section id="testimonials">
+    <div class="testimonial-heading">
+      <h2>What Our Students Say</h2>
+      <p>Real stories from real people</p>
+    </div>
+    <div class="testimonial-container">
+      <div class="testimonial-card">
+        <img src="https://i.pravatar.cc/100?img=12" alt="User 1">
+        <p class="testimonial-text">"Shri Krishna Edu Hub helped me transform my academic journey! Highly recommended."</p>
+        <h4 class="testimonial-name">Aarav Singh</h4>
+        <span class="testimonial-role">Student, Class 10</span>
+      </div>
+  
+      <div class="testimonial-card">
+        <img src="https://i.pravatar.cc/100?img=32" alt="User 2">
+        <p class="testimonial-text">"Great tutors and counselors. They really care about your future!"</p>
+        <h4 class="testimonial-name">Priya Mehta</h4>
+        <span class="testimonial-role">Engineering Aspirant</span>
+      </div>
+  
+      <div class="testimonial-card">
+        <img src="https://i.pravatar.cc/100?img=48" alt="User 3">
+        <p class="testimonial-text">"Life Transformation Center truly changed my mindset and habits. Grateful!"</p>
+        <h4 class="testimonial-name">Rohan Verma</h4>
+        <span class="testimonial-role">College Student</span>
+      </div>
+    </div>
+  </section>
+
+  
+  <style>
+    #testimonials {
+      background: #f9fafb;
+      padding: 4rem 2rem;
+      font-family: 'Inter', sans-serif;
+      text-align: center;
+    }
+  
+    .testimonial-heading h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 0.5rem;
+    }
+  
+    .testimonial-heading p {
+      font-size: 1rem;
+      color: #64748b;
+      margin-bottom: 2rem;
+    }
+  
+    .testimonial-container {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      max-width: 1100px;
+      margin: auto;
+    }
+  
+    .testimonial-card {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+      padding: 2rem 1.5rem;
+      transition: transform 0.3s ease;
+    }
+  
+    .testimonial-card:hover {
+      transform: translateY(-5px);
+    }
+  
+    .testimonial-card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+    }
+  
+    .testimonial-text {
+      font-size: 1rem;
+      color: #334155;
+      margin-bottom: 1rem;
+    }
+  
+    .testimonial-name {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 0;
+      color: #1e293b;
+    }
+  
+    .testimonial-role {
+      font-size: 0.85rem;
+      color: #64748b;
+    }
+  </style>
+  
     
 <br>
 
